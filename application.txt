@@ -2,4 +2,21 @@ Download GIT bash
 open Git
 enter git
 enter touch application.txt to create text file
-enter git init in gitbash
+$ git add *.txt
+$ git status ( To see status)
+
+NITHYA@LAPTOP-02PJ7JBS MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/NITHYA/.git/
+
+NITHYA@LAPTOP-02PJ7JBS MINGW64 ~ (master)
+$ git commit -m "initial commit"
+[master 34ffd25] initial commit
+ 1 file changed, 5 insertions(+)
+ create mode 100644 application.txt
+
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+$ git commit -m "initial commit"
+$ git remote add origin https://github.com/Nithya3014/GITtrialexample.git
+$ git push -u origin master
